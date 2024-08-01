@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.top{
+    background-color: blueviolet;
+    width:auto;
+    height:auto;
+    padding:20px 0 0 0;
+}
+.btn{
+    background-color:transparent;
+    border:0px;
+    font-size: larger;
+    font-weight: 800px;
+    cursor: pointer;
+    margin-left:10px;
+    color:white;
+}
+.buy{
+    background-color:rgb(216, 145, 11);
+}
+.btn:hover{
+    text-decoration: underline;
+}
