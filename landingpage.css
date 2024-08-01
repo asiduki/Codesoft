@@ -3,8 +3,11 @@
     padding:0px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body{
+    background-color:#f9e9ea;
+}
 .top{
-    background-color: blueviolet;
+    background-color:#03bf9f;
     width:auto;
     height:auto;
     margin:0px;
@@ -26,4 +29,13 @@
 }
 .btn:hover{
     text-decoration: underline;
+}
+.box{
+    background-color:white;
+    margin-left:100px;
+    margin-right:100px;
+    min-height:400px;
+    max-height:1200px;
+    margin-top:20px;
+    border-radius:10px;
 }
