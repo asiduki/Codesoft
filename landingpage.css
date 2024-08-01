@@ -7,7 +7,8 @@
     background-color: blueviolet;
     width:auto;
     height:auto;
-    padding:20px 0 0 0;
+    margin:0px;
+    padding:10px;
 }
 .btn{
     background-color:transparent;
@@ -15,8 +16,10 @@
     font-size: larger;
     font-weight: 800px;
     cursor: pointer;
-    margin-left:10px;
+    margin-left:20px;
     color:white;
+    margin-bottom:10px;
+    margin-top:0px;
 }
 .buy{
     background-color:rgb(216, 145, 11);
