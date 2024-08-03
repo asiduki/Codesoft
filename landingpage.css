@@ -38,6 +38,24 @@
     border-radius:10px;
     padding:20px 10px 10px 10px;
 }
+.image1{
+    background-image:url("pexels-dreamypixel-552784.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:550px;
+    width:auto;
+    color:white;
+    padding-top:100px;
+    padding-left:150px;
+}
+.box12{
+    height:500px;
+    width:90%;
+    background: rgb(252,252,252);
+    background: linear-gradient(180deg, rgba(252,252,252,0.8016456582633054) 0%, rgba(252,252,252,0.491281512605042) 100%);
+}
 .image{
     background-image:url("pexels-veeterzy-303383.jpg");
     background-repeat: no-repeat;
