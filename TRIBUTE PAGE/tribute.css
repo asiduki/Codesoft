@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(to bottom, #FF9933, white, #138808);
+}
+.heading{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration:underline;
+    padding-top: 20px;
+}
+.image1{
+    padding: 20px;
+}
+.box{
+    background: rgb(252,252,252);
+    background: linear-gradient(180deg, rgba(252,252,252,0.8016456582633054) 0%, rgba(252,252,252,0.491281512605042) 100%);
+    height: auto;
+    width:95%;
+    padding:20px;
+    text-align: justify;
+    color: #000080;
+}
+.list1{
+    list-style-type:decimal;
+}
+.bottom{
+    background-color: #138808;
+    height:100px;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
