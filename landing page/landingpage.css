@@ -69,8 +69,10 @@
 .foot{
     background-color: #2d6c8d;
     width:100%;
-    height:200px;
+    height:100px;
     color:white;
+    text-align: center;
+    padding-top:50px;
 }
 .card{
     height:500px;
