@@ -1,17 +1,17 @@
-function appendToDisplay(value) {
+function toadd(value) {
     document.getElementById('display').value += value;
 }
 
-function clearDisplay() {
+function todelete() {
     document.getElementById('display').value = '';
 }
 
-function deleteLast() {
+function delete1() {
     let currentValue = document.getElementById('display').value;
     document.getElementById('display').value = currentValue.slice(0, -1);
 }
 
-function calculateResult() {
+function result() {
     let result = eval(document.getElementById('display').value);
     document.getElementById('display').value = result;
 }

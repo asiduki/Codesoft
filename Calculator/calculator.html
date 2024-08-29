@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="calculator.css">
-    <link rel="stylesheet" href="calculator.js">
+    <script src="calculator.js"></script>
 </head>
 <body>
+    <center>
     <div class="calculator">
         <input type="text" id="display" >
         <div class="buttons">
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="appendToDisplay('/')">/</button>
-            <button onclick="appendToDisplay('*')">*</button>
-            <button onclick="deleteLast()">DEL</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('-')">-</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('+')">+</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="calculateResult()" class="equals">=</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="todelete()">C</button>
+            <button onclick="toadd('/')">/</button>
+            <button onclick="toadd('*')">*</button>
+            <button onclick="delete1()">DEL</button>
+            <button onclick="toadd('7')">7</button>
+            <button onclick="toadd('8')">8</button>
+            <button onclick="toadd('9')">9</button>
+            <button onclick="toadd('-')">-</button>
+            <button onclick="toadd('4')">4</button>
+            <button onclick="toadd('5')">5</button>
+            <button onclick="toadd('6')">6</button>
+            <button onclick="toadd('+')">+</button>
+            <button onclick="toadd('1')">1</button>
+            <button onclick="toadd('2')">2</button>
+            <button onclick="toadd('3')">3</button>
+            <button onclick="result()" class="equals">=</button>
+            <button onclick="toadd('0')">0</button>
+            <button onclick="toadd('.')">.</button>
         </div>
     </div>
+</center>
 </body>
 </html>
