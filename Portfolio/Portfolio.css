@@ -59,6 +59,7 @@ body{
     border:1px solid black;
     height:500px;
     width:400px;
+    padding:0px 10px;
 }
 td{
     padding-left: 50px;
