@@ -5,14 +5,18 @@
 body {
     display: flex;
     margin: 0;
+    text-align: justify;
+    background-color: black;
 }
 
 .calculator {
-    background-color: black;
-    padding: 20px;
+    background-color: darkblue;
+    padding:20px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     width: 400px;
+    margin-top: 100px;
+    margin-left:550px;
 }
 
 #display {
@@ -28,8 +32,8 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    gap:7px;
 }
 
 button {
@@ -39,18 +43,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 button:hover {
     background-color: #d4d4d4;
 }
 
-.equals {
+.equal {
     background-color: red;
     color: #fff;
 }
 
-.equals:hover {
+.equal:hover {
     background-color: darkred;
 }
