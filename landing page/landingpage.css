@@ -71,6 +71,15 @@
     height:640px;
     width:100%;
     color:white;
+    /* display: flex; */
+
+}
+.flex{
+    display: flex;
+    text-align: center;
+    width:100%;
+    gap: 100px;
+    padding-left:100px;
 }
 .foot{
     background-color: #2d6c8d;
@@ -79,15 +88,17 @@
     color:white;
     text-align: center;
     padding-top:50px;
+    bottom: 0;
 }
 .card{
     height:500px;
     width:300px;
-   background-image:url("pexels-wdnet-518244.jpg") ;
-   background-repeat:no-repeat;
-   background-position:inherit;
-   background-size:cover;
+    background-image:url("pexels-wdnet-518244.jpg") ;
+    background-repeat:no-repeat;
+    background-position:inherit;
+     background-size:cover;
     margin:10px 0 0 20px;
+    
 }
 .card1{
     height:500px;
