@@ -58,7 +58,7 @@ body{
 .box{
     border:1px solid black;
     height:500px;
-    width:400px;
+    width:auto;
     padding:0px 10px;
 }
 td{
